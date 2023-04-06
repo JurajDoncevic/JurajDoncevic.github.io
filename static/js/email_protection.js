@@ -78,3 +78,27 @@ function cms_mail(name, domain, subject, body) {
   }
   window.location = location;
 }
+
+var oldStyle = "";
+var isVaporOn = false;
+function vapor(element){
+  if(isVaporOn){
+    isVaporOn = false;
+    document.body.style = oldStyle
+    var jura = document.getElementById("jura");
+    var altSrc = jura.getAttribute("alt-src");
+    var src = jura.getAttribute("src");
+    jura.setAttribute("src", altSrc);
+    jura.setAttribute("alt-src", src);
+
+  } else {
+    isVaporOn = true;
+    oldStyle = document.body.style
+    document.body.style = "background: linear-gradient(180deg, rgba(0,22,255,0.65) 0%, rgba(225,0,255,0.65) 50%, rgba(255,0,0,0.65) 100%), url(./static/images/vapor/glitch.gif);"
+    var jura = document.getElementById("jura");
+    var altSrc = jura.getAttribute("alt-src");
+    var src = jura.getAttribute("src");
+    jura.setAttribute("src", altSrc);
+    jura.setAttribute("alt-src", src);
+  }
+}
