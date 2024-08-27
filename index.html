@@ -14,6 +14,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link href="./static/css/main.css" rel="stylesheet">
   <script src="./static/js/email_protection.js"></script>
+  <script src="./static/js/random_sub.js"></script>
 </head>
 
 <body>
@@ -21,15 +22,17 @@
     <div class="container">
 
       <h1>Juraj's Personal Website</h1>
-      <h4 class="link-secondary no-decoration">Certainly, <span style="text-decoration: underline;"
+      <!--<h4 class="link-secondary no-decoration">Certainly, <span style="text-decoration: underline;"
           onclick="vapor(this)">here</span> is a possible personal website for you...
-      </h4>
+      </h4>-->
+      <h4 id="subtitle" class="link-secondary no-decoration">
+     </h4>
       <div class="mb-md-5 mb-2"></div>
       <div class="row">
         <div class="col-md-4 col-12 order-0 order-md-1">
           <div class="card border-dark">
             <img id="jura" src="./static/images/JurajDoncevic.webp" alt-src="./static/images/vapor/JurajDoncevic.webp"
-              class="card-img-top img-fluid" />
+                class="card-img-top img-fluid" onclick="vapor(this)" />
             <div class="card-body">
               PhD (dr. sc.)<br />
               Teaching Assistant<br />
