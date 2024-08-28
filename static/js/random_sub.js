@@ -15,7 +15,8 @@ const titlesHtml = [
     'Please, notice me Uncle Bob :D',
     'Hast thou a care for thyself, lest thou bringest ruin upon thy head. - Frosted Die',
     'Did you put your API key into the repository!? (asks calmly)',
-    'A communications discruption can mean only one thing...'
+    'A communications discruption can mean only one thing...',
+    'When on an island, I give them the good ol\' prod and baseball bat!'
 ];
 document.addEventListener("DOMContentLoaded", function() {
     // Select a random h2 title using current date and time
