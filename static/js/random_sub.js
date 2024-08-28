@@ -6,15 +6,15 @@ const titlesHtml = [
     'If you haven\'t noticed this time this page loaded 0.34% faster',
     'Pack it up, pack it in, let me begin...',
     'Minimum effort - maximum impact',
-    'All we had was noodles for three stinkin\' days!',
+    'We ain\'t had nothing but noodles for three stinkin\' days!',
     'I ain\'t mean, I\'m just focused',
     'Whoooops! Wrong monitor...',
     'Making cheddar',
     'Red is the fastest!',
-    'A PhD arrives exactly when he means to!',
+    'A PhD is never late, nor is he early, he arrives precisely when he means to!',
     'Please, notice me Uncle Bob :D',
     'Hast thou a care for thyself, lest thou bringest ruin upon thy head. - Frosted Die',
-    'Did you put your API key into the repository!? (calmly)',
+    'Did you put your API key into the repository!? (asks calmly)',
     'A communications discruption can mean only one thing...'
 ];
 document.addEventListener("DOMContentLoaded", function() {
